@@ -24,7 +24,7 @@ export default function Todo({ item, onUpdate, onComplete, onDelete }) {
   }
 
   return (
-    <div className="todo">
+    <div className="todo1">
       {isEdit ? (
         <form onSubmit={handleSubmit} className="todoUpdateForm">
           <input
@@ -57,7 +57,7 @@ export default function Todo({ item, onUpdate, onComplete, onDelete }) {
             Edit
           </button>
           <button className="buttonDelete" onClick={() => onDelete(item.id)}>
-            Update
+            Delete
           </button>
         </div>
       )}
