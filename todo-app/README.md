@@ -8,8 +8,7 @@
 
 ## Built With
 
-
-- React JS 
+- React JS
 - HTML
 - CSS
 - Git
